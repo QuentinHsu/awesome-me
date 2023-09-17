@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'about Xu Quentin Yang',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/blue.png',
+    // logo: '/assets/blue.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Latest', link: '/doc/start-gpg-key' },
