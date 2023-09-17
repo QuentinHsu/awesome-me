@@ -20,5 +20,9 @@ export default defineConfig({
     ],
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    footer: {
+      // message: '',
+      copyright: 'Copyright © 1997-2023 Xu Quentin Yang',
+    },
   },
 })

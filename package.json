@@ -1,7 +1,8 @@
 {
   "dependencies": {},
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.13"
+    "sass": "^1.67.0",
+    "vitepress": "^1.0.0-rc.14"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
