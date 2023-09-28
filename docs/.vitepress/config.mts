@@ -15,7 +15,13 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Latest',
-        items: [{ text: 'Start GPG Key', link: '/doc/start-gpg-key' }],
+        items: [
+          {
+            text: '在 Cloudflare 部署 Bun 前端项目',
+            link: '/doc/2023/deploy-the-bun-front-end-project-in-cloudflare',
+          },
+          { text: 'Start GPG Key', link: '/doc/start-gpg-key' },
+        ],
       },
     ],
 
@@ -23,6 +29,13 @@ export default defineConfig({
     footer: {
       // message: '',
       copyright: 'Copyright © 1997-2023 Xu Quentin Yang',
+    },
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium',
+      },
     },
   },
 })
