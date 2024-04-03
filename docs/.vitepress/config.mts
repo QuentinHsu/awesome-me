@@ -1,41 +1,21 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+
+import { SidebarECMAScript } from "./config/sidebar-ecma-script";
+import { SidebarGit } from "./config/sidebar-git";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Awesome Me',
-  description: 'about Xu Quentin Yang',
+  lang: "zh-CN",
+  title: "👨‍💻",
+  description: "人生本就過的不愉快 那就來點羅曼蒂克",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // logo: '/assets/blue.png',
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Latest', link: '/doc/start-gpg-key' },
-    ],
-
-    sidebar: [
-      {
-        text: 'Latest',
-        items: [
-          {
-            text: '在 Cloudflare 部署 Bun 前端项目',
-            link: '/doc/2023/deploy-the-bun-front-end-project-in-cloudflare',
-          },
-          { text: 'Start GPG Key', link: '/doc/start-gpg-key' },
-        ],
-      },
-    ],
-
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
-    footer: {
-      // message: '',
-      copyright: 'Copyright © 1997-2023 Xu Quentin Yang',
+    nav: [],
+    sidebar: {
+      "ecma-script": { base: "/ecma-script/", items: SidebarECMAScript() },
+      git: { base: "/git/", items: SidebarGit() },
     },
-    lastUpdated: {
-      text: 'Updated at',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium',
-      },
-    },
+
+    socialLinks: [{ icon: "github", link: "https://github.com/QuentinHsu" }],
   },
-})
+});
