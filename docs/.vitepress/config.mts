@@ -31,5 +31,12 @@ export default defineConfig({
 				rel: "stylesheet",
 			},
 		],
+		[
+			"meta",
+			{
+				property: "og:image",
+				content: "https://vitepress.dev/vitepress-og.jpg",
+			},
+		],
 	],
 });
