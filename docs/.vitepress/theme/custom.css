@@ -1,0 +1,10 @@
+/* .vitepress/theme/custom.css */
+:root {
+	--vp-c-brand-1: #646cff;
+	--vp-c-brand-2: #747bff;
+}
+.tagline {
+	font-family: "Noto Serif SC", var(--vp-font-family-base);
+	font-weight: 700;
+	font-style: bold;
+}
