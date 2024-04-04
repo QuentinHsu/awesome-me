@@ -1,15 +1,16 @@
 {
-	"type": "module",
-	"scripts": {
-		"docs:build": "vitepress build docs",
-		"docs:dev": "vitepress dev docs",
-		"docs:preview": "vitepress preview docs"
-	},
-	"devDependencies": {
-		"@so1ve/eslint-config": "^2.0.0",
-		"@so1ve/prettier-config": "^2.0.0",
-		"eslint": "^8.57.0",
-		"prettier": "^3.2.5",
-		"vitepress": "^1.0.2"
-	}
+  "scripts": {
+    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs"
+
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.12.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.0",
+    "sass": "^1.72.0",
+    "vitepress": "^1.0.2",
+    "vue": "^3.4.21"
+  }
 }

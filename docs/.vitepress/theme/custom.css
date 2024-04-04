@@ -2,6 +2,8 @@
 :root {
 	--vp-c-brand-1: #646cff;
 	--vp-c-brand-2: #747bff;
+
+	--vp-code-color: #f97583;
 }
 .tagline {
 	font-family: "Noto Serif SC", var(--vp-font-family-base);

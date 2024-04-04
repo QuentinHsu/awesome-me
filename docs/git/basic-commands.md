@@ -1,3 +1,9 @@
+---
+title: Basic Commands
+layout: "doc"
+createTime: "2021-07-09"
+---
+
 # 开始一个工作区（参见：git help tutorial）
 
 ## `clone`：克隆仓库到一个新目录

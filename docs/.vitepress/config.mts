@@ -15,6 +15,10 @@ export default defineConfig({
 			"ecma-script": { base: "/ecma-script/", items: SidebarECMAScript() },
 			git: { base: "/git/", items: SidebarGit() },
 		},
+		outline: {
+			level: [1, 7],
+			label: "页面导航",
+		},
 
 		socialLinks: [{ icon: "github", link: "https://github.com/QuentinHsu" }],
 	},
