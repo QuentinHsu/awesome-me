@@ -28,8 +28,8 @@ const showContent = computed(() => {
 .doc-before {
   .content {
     padding: 0em 3em 3em 0em;
-    font-family: 'Noto Serif SC', var(--vp-font-family-base);
     .doc-title {
+      font-family: 'Noto Serif SC', var(--vp-font-family-base);
       font-size: 2em;
       font-weight: bold;
       border-left: 5px solid red;
@@ -37,10 +37,13 @@ const showContent = computed(() => {
       padding-left: 10px;
     }
     .doc-create_time {
+      font-family: var(--vp-font-family-base);
       color: var(--vp-c-text-2);
       padding-left: 15px;
       padding-top: 10px;
-      font-size: 16px;
+      line-height: 32px;
+      font-size: 14px;
+      font-weight: 500;
     }
   }
 }

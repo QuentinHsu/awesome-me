@@ -18,6 +18,18 @@ export default defineConfig({
     outline: {
       level: [1, 7],
       label: '页面导航',
+
+    },
+    footer: {
+      message: '',
+      copyright: `版权所有 © 1997-${new Date().getFullYear()} Quentin Hsu`,
+    },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium',
+      },
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/QuentinHsu' }],
@@ -43,4 +55,5 @@ export default defineConfig({
       },
     ],
   ],
+  lastUpdated: true,
 })
