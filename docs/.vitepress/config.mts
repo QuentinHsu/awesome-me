@@ -24,6 +24,10 @@ export default defineConfig({
       message: '',
       copyright: `版权所有 © 1997-${new Date().getFullYear()} Quentin Hsu`,
     },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
     lastUpdated: {
       text: '最后更新于',
       formatOptions: {
