@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  # name: ""
-  # text: ""
+  name: "Hi! 👋"
+  text: "I'm Quentin Hsu"
   tagline: 人生本就過的不愉快 那就來點羅曼蒂克
   actions:
     - theme: brand

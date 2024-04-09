@@ -4,8 +4,14 @@ export function SidebarECMAScript(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'ECMAScript',
-      collapsed: false,
-      items: [{ text: 'Debounce Throttle', link: '/debounce-throttle' }],
+      items: [
+        {
+          text: 'Utility Functions',
+          collapsed: false,
+          items: [{ text: 'Debounce Throttle', link: '/debounce-throttle' }],
+        },
+      ],
     },
+
   ]
 }
