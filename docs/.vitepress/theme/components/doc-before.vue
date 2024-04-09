@@ -27,7 +27,6 @@ const showContent = computed(() => {
 <style lang="scss" scoped>
 .doc-before {
   .content {
-    padding: 0em 3em 3em 0em;
     .doc-title {
       font-family: 'Noto Serif SC', var(--vp-font-family-base);
       font-size: 2em;
