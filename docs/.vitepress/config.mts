@@ -1,3 +1,4 @@
+import type { DefaultTheme } from 'vitepress'
 import { defineConfig } from 'vitepress'
 
 import { SidebarECMAScript } from './config/sidebar-ecma-script'
@@ -10,7 +11,7 @@ export default defineConfig({
   description: '人生本就過的不愉快 那就來點羅曼蒂克',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [],
+    nav: nav(),
     sidebar: {
       'ecma-script': { base: '/ecma-script/', items: SidebarECMAScript() },
       'git': { base: '/git/', items: SidebarGit() },
@@ -61,3 +62,9 @@ export default defineConfig({
   ],
   lastUpdated: true,
 })
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    { text: '首页', link: '/' },
+    { text: '我的朋友们', link: '/page/my-friends/index' },
+  ]
+}
