@@ -17,7 +17,7 @@ const showContent = computed(() => {
       <div class="doc-title">
         {{ _VitePressData.frontmatter.value.title }}
       </div>
-      <div class="doc-create_time">
+      <div v-if="_VitePressData.frontmatter.value.createTime" class="doc-create_time">
         创建于 {{ _VitePressData.frontmatter.value.createTime }}
       </div>
     </div>

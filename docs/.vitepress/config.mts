@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 
 import { SidebarECMAScript } from './config/sidebar-ecma-script'
 import { SidebarGit } from './config/sidebar-git'
+import { SidebarHtmlCss } from './config/sidebar-html-css'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,6 +16,7 @@ export default defineConfig({
     sidebar: {
       'ecma-script': { base: '/ecma-script/', items: SidebarECMAScript() },
       'git': { base: '/git/', items: SidebarGit() },
+      'html-css': { base: '/html-css/', items: SidebarHtmlCss() },
     },
     outline: {
       level: [1, 7],

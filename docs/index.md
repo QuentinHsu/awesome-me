@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Git
       link: /git/
+    - theme: brand
+      text: HTML CSS
+      link: /html-css/
 
 features:
 ---
