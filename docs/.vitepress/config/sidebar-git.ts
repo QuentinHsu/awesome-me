@@ -7,6 +7,7 @@ export function SidebarGit(): DefaultTheme.SidebarItem[] {
       items: [
         { text: '基础', collapsed: false, items: [{ text: 'Basic Commands', link: '/basic-commands' }] },
         { text: '分支', collapsed: false, items: [{ text: '如果你想删除分支', link: '/if-you-want-to-delete-the-branch' }] },
+        { text: '配置', collapsed: false, items: [{ text: '如果你想删除分支', link: '/config/multiple-workspace-config-for-git' }] },
 
       ],
     },

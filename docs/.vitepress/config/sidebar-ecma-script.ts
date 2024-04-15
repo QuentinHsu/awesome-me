@@ -10,6 +10,11 @@ export function SidebarECMAScript(): DefaultTheme.SidebarItem[] {
           collapsed: false,
           items: [{ text: 'Debounce Throttle', link: '/debounce-throttle' }],
         },
+        {
+          text: 'Syntax',
+          collapsed: false,
+          items: [{ text: 'JavaScript 的提升', link: '/syntax/javascript-hoist' }],
+        },
       ],
     },
 

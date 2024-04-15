@@ -2,6 +2,7 @@
 title: Debounce Throttle
 layout: "doc"
 createTime: "2023-05-10"
+next: false
 ---
 
 ## 防抖 / Debounce
