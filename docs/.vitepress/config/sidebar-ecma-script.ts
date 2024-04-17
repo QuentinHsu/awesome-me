@@ -24,6 +24,14 @@ export function SidebarECMAScript(): DefaultTheme.SidebarItem[] {
             { text: '容易', collapsed: false, items: [{ text: 'Pick', link: '/type-challenges/00004-easy-pick' }] },
           ],
         },
+        {
+          text: 'Types',
+          collapsed: true,
+          items: [
+            { text: '映射类型', link: '/type-script/types/mapped/index' },
+
+          ],
+        },
       ],
     },
 
