@@ -15,6 +15,15 @@ export function SidebarECMAScript(): DefaultTheme.SidebarItem[] {
           collapsed: false,
           items: [{ text: 'JavaScript 的提升', link: '/syntax/javascript-hoist' }],
         },
+        {
+          text: 'Type Challenges',
+          collapsed: false,
+          items: [
+            { text: '测试工具', link: '/type-challenges/test-utils' },
+            { text: '热身', link: '/type-challenges/00013-warm-hello-world' },
+            { text: '容易', collapsed: false, items: [{ text: 'Pick', link: '/type-challenges/00004-easy-pick' }] },
+          ],
+        },
       ],
     },
 

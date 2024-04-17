@@ -1,5 +1,6 @@
 import type { DefaultTheme } from 'vitepress'
 import { defineConfig } from 'vitepress'
+import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 
 import { SidebarECMAScript } from './config/sidebar-ecma-script'
 import { SidebarGit } from './config/sidebar-git'
@@ -63,6 +64,11 @@ export default defineConfig({
     ],
   ],
   lastUpdated: true,
+  markdown: {
+    codeTransformers: [
+      transformerTwoslash(),
+    ],
+  },
 })
 function nav(): DefaultTheme.NavItem[] {
   return [
