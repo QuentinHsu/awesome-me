@@ -56,7 +56,7 @@ function configure(options: Partial<Options> = {}) {
 
 2. **组件的 props**：在 React（或其他前端框架）中，组件的 props 通常是一个对象，它包含了一些属性。有时，你可能希望创建一个新的组件，这个组件接受和原始组件相同的 props，但是一部分 props 是可选的。这时，你可以使用 `Partial` 类型。
 
-```tsx twoslash
+```tsx v-pre
 import React from 'react'
 
 interface ButtonProps {

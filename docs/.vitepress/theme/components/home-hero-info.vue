@@ -9,8 +9,9 @@ import IMGSignature from './signature.vue'
     </div>
     <div class="home-hero-info-text">
       I'm
-
-      <IMGSignature style="margin-left: 20px;" />
+      <ClientOnly>
+        <IMGSignature style="margin-left: 20px;" />
+      </ClientOnly>
     </div>
   </div>
 </template>
