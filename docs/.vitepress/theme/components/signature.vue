@@ -1,31 +1,10 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
-
-const isDark = ref(false)
-let observer = new MutationObserver(() => {})
-
-function setDark() {
-  isDark.value = document.documentElement.classList.contains('dark')
-}
-
-onMounted(() => {
-  setDark()
-  observer = new MutationObserver(setDark)
-  observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ['class'],
-  })
-})
-
-onBeforeUnmount(() => {
-  observer.disconnect()
-})
-const logoColor = computed(() => (isDark.value ? '#fdfdfd' : '#303030'))
+const logoColor = 'var(--vp-c-text-1)'
 </script>
 
 <template>
   <svg
-    :key="isDark.value" style="transform: translate3d(0, 0, 0);" width="270" height="50" viewBox="0 0 540  100"
+    style="transform: translate3d(0, 0, 0);" width="270" height="50" viewBox="0 0 540  100"
     preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
   >
     <path
