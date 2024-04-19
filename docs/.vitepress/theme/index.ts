@@ -4,7 +4,6 @@ import DefaultTheme from 'vitepress/theme'
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
 
 import ComponentDocBefore from './components/doc-before.vue'
-import ComponentHomeHeroInfoAfter from './components/home-hero-info-after.vue'
 import ComponentHomeHeroInfo from './components/home-hero-info.vue'
 import '@shikijs/vitepress-twoslash/style.css'
 import './custom.css'
@@ -17,7 +16,6 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'doc-before': () => h(ComponentDocBefore),
-      'home-hero-info-after': () => h(ComponentHomeHeroInfoAfter),
       'home-hero-info': () => h(ComponentHomeHeroInfo),
     })
   },
