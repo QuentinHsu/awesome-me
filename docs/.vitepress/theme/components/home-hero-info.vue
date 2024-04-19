@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import IMGSignature from './signature.vue'
+import Typewriter from './typewriter.vue'
 </script>
 
 <template>
@@ -12,6 +13,9 @@ import IMGSignature from './signature.vue'
       <ClientOnly>
         <IMGSignature style="margin-left: 20px;" />
       </ClientOnly>
+    </div>
+    <div class="tagline">
+      <Typewriter content="人生本就過的不愉快 那就來點羅曼蒂克" speed="200" style="display: block;" :delay="2000" />
     </div>
   </div>
 </template>
