@@ -5,6 +5,7 @@ import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { SidebarECMAScript } from './config/sidebar-ecma-script'
 import { SidebarGit } from './config/sidebar-git'
 import { SidebarHtmlCss } from './config/sidebar-html-css'
+import { SidebarEightPartEssay } from './config/sidebar-eight-part-essay'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,6 +19,7 @@ export default defineConfig({
       'ecma-script': { base: '/ecma-script/', items: SidebarECMAScript() },
       'git': { base: '/git/', items: SidebarGit() },
       'html-css': { base: '/html-css/', items: SidebarHtmlCss() },
+      'eight-part-essay': { base: '/eight-part-essay/', items: SidebarEightPartEssay() },
     },
     outline: {
       level: [1, 7],

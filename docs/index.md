@@ -16,6 +16,9 @@ hero:
     - theme: brand
       text: HTML CSS
       link: /html-css/
+    - theme: alt
+      text: 八股
+      link: /eight-part-essay/
 
 features:
 ---

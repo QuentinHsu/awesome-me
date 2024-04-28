@@ -10,3 +10,14 @@
 	font-weight: 700;
 	font-style: bold;
 }
+
+strong {
+  font-weight: 700;
+  box-shadow: 0 1px 0 0 var(--vp-c-brand-1);
+}
+strong::after {
+  content: " ";
+}
+strong::before {
+  content: " ";
+}
