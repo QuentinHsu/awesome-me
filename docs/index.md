@@ -18,7 +18,7 @@ hero:
       link: /html-css/
     - theme: alt
       text: 八股
-      link: /eight-part-essay/
+      link: /eight-part-essay/web-front-end/JavaScript
 
 features:
 ---
